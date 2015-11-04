@@ -1,5 +1,6 @@
 #!/usr/bin/python
 import os.path
+import sys
 
 script_path = os.path.dirname(os.path.realpath(__file__))
 zip_path = sys.argv[1]
